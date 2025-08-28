@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.log
+.env
+.venv/
+venv/
+env/
+*.sqlite3
+
+# Byte-compiled / cache
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Unit test / coverage reports
+.coverage
+*.cover
+htmlcov/
+.cache/
+.pytest_cache/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# Docker
+*.pid
+*.seed
+docker-compose.yml
+dockerfile
+.docker/
+docker-data/
+postgres_data/
+redis_data/
+
+# Build / dist
+build/
+dist/
+*.spec
+
+# Local configs
+*.local
+*.bak
+*.tmp
